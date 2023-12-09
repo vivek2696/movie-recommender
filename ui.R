@@ -1,7 +1,6 @@
 ## ui.R
 library(shiny)
 library(shinydashboard)
-# library(recommenderlab)
 library(data.table)
 library(ShinyRatingInput)
 library(shinyjs)
