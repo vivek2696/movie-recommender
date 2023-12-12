@@ -403,6 +403,7 @@ The top ten highly-rated (based on their average ratings) among all
 movies that have received at least 1000 ratings.
 
 ``` r
+# Hard to replicate results for this chunk so removed from output
 small_image_url = "https://github.com/Vivek2696/movie-recommender/blob/main/data/MovieImages/"
 ratings %>% 
   group_by(MovieID) %>% 
@@ -422,9 +423,6 @@ ratings %>%
             options = list(dom = 't',
                           scrollX = TRUE, autoWidth = TRUE))
 ```
-
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-5410371111ddb509d76c" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-5410371111ddb509d76c">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10"],["<img src=\"https://github.com/Vivek2696/movie-recommender/blob/main/data/MovieImages/2762.jpg?raw=true\"><\/img>","<img src=\"https://github.com/Vivek2696/movie-recommender/blob/main/data/MovieImages/912.jpg?raw=true\"><\/img>","<img src=\"https://github.com/Vivek2696/movie-recommender/blob/main/data/MovieImages/750.jpg?raw=true\"><\/img>","<img src=\"https://github.com/Vivek2696/movie-recommender/blob/main/data/MovieImages/260.jpg?raw=true\"><\/img>","<img src=\"https://github.com/Vivek2696/movie-recommender/blob/main/data/MovieImages/904.jpg?raw=true\"><\/img>","<img src=\"https://github.com/Vivek2696/movie-recommender/blob/main/data/MovieImages/1198.jpg?raw=true\"><\/img>","<img src=\"https://github.com/Vivek2696/movie-recommender/blob/main/data/MovieImages/527.jpg?raw=true\"><\/img>","<img src=\"https://github.com/Vivek2696/movie-recommender/blob/main/data/MovieImages/50.jpg?raw=true\"><\/img>","<img src=\"https://github.com/Vivek2696/movie-recommender/blob/main/data/MovieImages/858.jpg?raw=true\"><\/img>","<img src=\"https://github.com/Vivek2696/movie-recommender/blob/main/data/MovieImages/318.jpg?raw=true\"><\/img>"],["Sixth Sense, The (1999)","Casablanca (1942)","Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)","Star Wars: Episode IV - A New Hope (1977)","Rear Window (1954)","Raiders of the Lost Ark (1981)","Schindler's List (1993)","Usual Suspects, The (1995)","Godfather, The (1972)","Shawshank Redemption, The (1994)"],[4.406,4.413,4.45,4.454,4.476,4.478,4.51,4.517,4.525,4.555]],"container":"<table class=\"nowrap hover row-border\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Image<\/th>\n      <th>Title<\/th>\n      <th>ave_ratings<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"dom":"t","scrollX":true,"autoWidth":true,"columnDefs":[{"className":"dt-right","targets":3},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Image","targets":1},{"name":"Title","targets":2},{"name":"ave_ratings","targets":3}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 
 ### Dist of Genres
 
