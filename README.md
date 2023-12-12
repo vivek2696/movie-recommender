@@ -26,18 +26,7 @@ library(coop)
 set.seed(7612)
 ```
 
-# System 1: Recommendation Based on Genres
-
-### If we know the user's genre then we will recommend the top 10 movies which are popular. For that we will use following steps:
-
-- First we will get all the ratings from database. 
-  - We will get the ratings.dat from github provided in (https://liangfgithub.github.io/Rcode_W13_Movie_EDA.nb.html)
-- Then we will rate each movies and average it.
-- Using that ratings for each movies we will filter it by user's genre
-- Finally send back the top 10 movies that are in the list by decreasing order of ratings.
-
-
-# System 2: Recommendation Based on IBCF
+# Main System: Recommendation Based on IBCF
 
 ### Step 1: Normalizing R matrix
 
