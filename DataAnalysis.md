@@ -1,83 +1,12 @@
 ``` r
 # Load necessary libraries
 library(dplyr)
-```
-
-    ## 
-    ## Attaching package: 'dplyr'
-
-    ## The following objects are masked from 'package:stats':
-    ## 
-    ##     filter, lag
-
-    ## The following objects are masked from 'package:base':
-    ## 
-    ##     intersect, setdiff, setequal, union
-
-``` r
 library(ggplot2)
 library(recommenderlab)
-```
-
-    ## Loading required package: Matrix
-
-    ## Loading required package: arules
-
-    ## 
-    ## Attaching package: 'arules'
-
-    ## The following object is masked from 'package:dplyr':
-    ## 
-    ##     recode
-
-    ## The following objects are masked from 'package:base':
-    ## 
-    ##     abbreviate, write
-
-    ## Loading required package: proxy
-
-    ## 
-    ## Attaching package: 'proxy'
-
-    ## The following object is masked from 'package:Matrix':
-    ## 
-    ##     as.matrix
-
-    ## The following objects are masked from 'package:stats':
-    ## 
-    ##     as.dist, dist
-
-    ## The following object is masked from 'package:base':
-    ## 
-    ##     as.matrix
-
-    ## Registered S3 methods overwritten by 'registry':
-    ##   method               from 
-    ##   print.registry_field proxy
-    ##   print.registry_entry proxy
-
-``` r
 library(DT)
 library(data.table)
-```
-
-    ## 
-    ## Attaching package: 'data.table'
-
-    ## The following objects are masked from 'package:dplyr':
-    ## 
-    ##     between, first, last
-
-``` r
 library(reshape2)
 ```
-
-    ## 
-    ## Attaching package: 'reshape2'
-
-    ## The following objects are masked from 'package:data.table':
-    ## 
-    ##     dcast, melt
 
 ## Download Data
 
