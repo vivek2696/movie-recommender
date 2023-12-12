@@ -2,17 +2,6 @@
 title: "Movie Recommender Project"
 date: "12/11/2023"
 author: "Vivek Patel"
-output:
-  html_document:
-    toc: yes
-    df_print: paged
-    keep_md: true
-  html_notebook:
-    theme: readable
-    toc: yes
-    toc_float: yes
-  pdf_document:
-    toc: yes
 ---
 
 
