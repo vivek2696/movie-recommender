@@ -4,6 +4,10 @@ date: "12/11/2023"
 author: "Vivek Patel"
 ---
 
+Live app: https://vivekdp2.shinyapps.io/movierecommender/
+
+The app is hosted by Shiny App which has 25 active hours per month.
+
 
 ```r
 # Libraries
